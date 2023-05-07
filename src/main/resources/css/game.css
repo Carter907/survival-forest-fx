@@ -1,0 +1,14 @@
+.root {
+    -fx-background-color: black;
+}
+
+#gameText {
+    -fx-background-color: darkgray;
+}
+
+#commandConsole {
+
+    -fx-background-color: yellow;
+    -fx-control-inner-background: black;
+    -fx-text-fill: yellow;
+}

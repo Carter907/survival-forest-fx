@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.TextFlow?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.text.Text?>
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="org.example.carte.controllers.HomeController"
+            prefHeight="400.0" prefWidth="600.0">
+
+    <padding>
+        <Insets top="10" left="10" right="10" bottom="10">
+
+        </Insets>
+    </padding>
+
+    <center>
+        <TextFlow fx:id="gameText" id="gameTextFlow">
+            <Text fx:id="Title" id="gameTitle" fill="white"
+                  style="-fx-font-family: 'Tw Cen MT'; -fx-font-size: 30"
+            >
+                Welcome to Survival Forest (FX)
+            </Text>
+        </TextFlow>
+
+    </center>
+
+    <bottom>
+        <HBox alignment="CENTER">
+           <TextArea fx:id="commandConsole">
+
+           </TextArea>
+        </HBox>
+    </bottom>
+
+    <Button>
+
+    </Button>
+
+
+
+</BorderPane>
